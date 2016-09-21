@@ -1,0 +1,47 @@
+<html>
+<head>
+<script type="text/javascript"
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
+<script type="text/javascript"
+	src="http://www.thefigtrees.net/lee/sw/sparql.js"></script>
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true&amp;key=ABQIAAAASxziEiVlxZjWx32KYz1aehRms8KHK1hID18NaMPcTpBrkWwozRRiaGe1M74mL2f9P6px5kjcTaOZCA" type="text/javascript"></script>
+<script type="text/javascript" src="example2.js"></script>
+
+<title>Example 2</title>
+
+</head>
+<body onload="initialize()" onunload="GUnload()" >
+<h1>Example 2.</h1>
+<hr />
+<p><b>Goal:  </b> Getting geografic info about birthplaces and understanding Google Maps API.<br />
+<b>Problems: </b> How to merge then?</p>
+<hr />
+
+
+
+<form action=""><label for="uriteam">Team URI: </label><input
+	type="text" id="uriteam"
+	value="http://dbpedia.org/resource/Arsenal_F.C." size="100"/> <input
+	id="resultdisplay" type="submit" value="Query" /></form>
+
+<table cellpadding="1" cellspacing="1" border="1" class="resultdisplay"
+	id="tableresult">
+	<thead>
+		<tr>
+			<th>Player URI</th>
+			<th>BirthPlace</th>
+			<th>BirthPlace LAT</th>
+			<th>BirthPlace LONG</th>
+			
+		</tr>
+	</thead>
+	<tbody>
+
+	</tbody>
+</table>
+
+<div id="map_canvas" style="width: 800px; height: 300px"></div>	
+
+</body>
+
+</html>

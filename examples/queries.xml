@@ -1,0 +1,113 @@
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX p: <http://dbpedia.org/property/>  
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>   
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+INSERT data into <http://www.lis.ic.unicamp.br/foaf>  {
+
+##############MatheusMota##############
+<http://www.lis.ic.unicamp.br/foaf#MatheusMota>		a						foaf:person ;             
+													foaf:name               "Matheus Silva Mota"@pt ;
+													dbpedia-owl:birthPlace  <http://dbpedia.org/resource/Ilh%C3%A9us> ;
+													foaf:mbox               "mailto:matheus@lis.ic.unicamp.br";
+													foaf:gender			    "Male";
+													foaf:family_name		"Mota";
+													foaf:Nick 				"Baiano";
+													dbpedia-owl:birthDate	"1986-08-07"^^xsd:date ;
+													foaf:depiction 			<http://www.lis.ic.unicamp.br/~matheus/me.JPG>.
+
+#########Joana###########
+<http://www.lis.ic.unicamp.br/foaf#JoanaMalaverri>	a						foaf:person ;             
+													foaf:name               "Joana Malaverri"@pt ;
+													dbpedia-owl:birthPlace  <http://dbpedia.org/resource/Iquitos> ;
+													foaf:mbox               "mailto:joana@lis.ic.unicamp.br" ;
+													foaf:gender			    "Female" ;
+													foaf:family_name		"Malaverri" ;
+													foaf:Nick 				"Capitão nascimento" ;
+													dbpedia-owl:birthDate	"1983-08-07"^^xsd:date ;
+													foaf:depiction 			<http://www.ic.unicamp.br/~jmalav09/images/Joana.JPG>.
+
+#########Claudia###########
+<http://www.lis.ic.unicamp.br/foaf#ClaudiaMedeiros>	a						foaf:person ;             
+													foaf:name               "Claudia Maria Bauzer Medeiros"@pt ;
+													dbpedia-owl:birthPlace  <http://dbpedia.org/resource/Rio_de_Janeiro> ;
+													foaf:mbox               "mailto:cmbm@ic.unicamp.br" ;
+													foaf:gender			    "Female" ;
+													foaf:family_name		"Medeiros" ;
+													foaf:Nick 				"Querida e maravilhosa professora" ;
+													dbpedia-owl:birthDate	"1979-08-05"^^xsd:date ;
+													foaf:status				"professor";
+													foaf:depiction 			<http://www.ic.unicamp.br/~cmbm/foto_claudia.gif>.
+
+#########Ivelize###########
+<http://www.lis.ic.unicamp.br/foaf#IveRocha>		a						foaf:person ;             
+													foaf:name               "Ivelize Rocha Bernardo"@pt ;
+													dbpedia-owl:birthPlace  <http://dbpedia.org/resource/Limeira> ;
+													foaf:mbox               "mailto:ive@lis.ic.unicamp.br" ;
+													foaf:gender			    "Female" ;
+													foaf:family_name		"Bernardo" ;
+													foaf:Nick 				"IveTech Technology" ;
+													dbpedia-owl:birthDate	"1981-08-05"^^xsd:date.
+
+
+
+#########Soraya###########
+<http://www.lis.ic.unicamp.br/foaf#SorayaBHA>		a						foaf:person ;             
+													foaf:name               "Soraya B. H. A."@pt ;
+													dbpedia-owl:birthPlace  <http://dbpedia.org/resource/Tunisia> ;
+													foaf:gender			    "Female" ;
+													dbpedia-owl:birthDate	"1988-01-01"^^xsd:date.
+
+
+#########Daniel###########
+<http://www.lis.ic.unicamp.br/foaf#DanielCugler>	a						foaf:person ;             
+													foaf:name               "Daniel Cintra Cugler"@pt ;
+													dbpedia-owl:birthPlace  <http://dbpedia.org/resource/Mat%C3%A3o> ;
+													foaf:mbox               "mailto:daniel@lis.ic.unicamp.br" ;
+													foaf:gender			    "Male" ;
+													foaf:family_name		"Cugler" ;
+													foaf:Nick 				"Cuuugler!" ;
+													dbpedia-owl:birthDate	"1980-03-17"^^xsd:date ;
+													foaf:depiction 			<http://www.ic.unicamp.br/~dcintra/index_html_m6c37c678.jpg>.
+#########Jerome###########
+<http://www.lis.ic.unicamp.br/foaf#JeromeDepotter>	a						foaf:person ;             
+													foaf:name               "Jerome Depotter"@pt ;
+													dbpedia-owl:birthPlace  <http://dbpedia.org/resource/Paris> ;
+													foaf:gender			    "Male" ;
+													dbpedia-owl:birthDate	"1989-03-17"^^xsd:date .
+
+
+#########IvoKoga###########
+<http://www.lis.ic.unicamp.br/foaf#IvoKoga>			a						foaf:person ;             
+													foaf:name               "Ivo Kenji Koga"@pt ;
+													dbpedia-owl:birthPlace  <http://dbpedia.org/resource/Salvador,_Bahia> ;
+													foaf:mbox               "mailto:koga@lis.ic.unicamp.br" ;
+													foaf:gender			    "Male" ;
+													foaf:family_name		"Koga" ;
+													foaf:Nick 				"Koga" ;
+													dbpedia-owl:birthDate	"1980-04-04"^^xsd:date ;
+													foaf:depiction 			<http://profile.ak.fbcdn.net/hprofile-ak-snc4/186966_1200049162_3254434_n.jpg>.
+
+#########BrunoVilar###########
+<http://www.lis.ic.unicamp.br/foaf#BrunoVilar>		a						foaf:person ;             
+													foaf:name               "Bruno Villar"@pt ;
+													dbpedia-owl:birthPlace  <http://dbpedia.org/resource/Bras%C3%ADlia> ;
+													foaf:mbox               "mailto:bruno@lis.ic.unicamp.br" ;
+													foaf:gender			    "Male" ;
+													foaf:family_name		"Vilar" ;
+													foaf:Nick 				"Bruno" ;
+													dbpedia-owl:birthDate	"1920-07-04"^^xsd:date ;
+													foaf:depiction 			<http://www.lis.ic.unicamp.br/~brunovilar/img/bonedensity-inverted.JPG>.
+
+
+
+
+
+
+}

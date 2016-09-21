@@ -1,0 +1,280 @@
+
+
+body, input, textarea, select {
+    font-family: "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+    font-size: 8pt;
+    color: #444; }
+a:link {
+    text-decoration: none;
+    color: #444;
+}
+
+OL {
+    list-style-type: upper-alpha
+}
+
+a:visited {
+    text-decoration: none;
+    color: #444;
+}
+a:hover {
+    text-decoration: none;
+    color: #444;
+}
+a:active {
+    text-decoration: none;
+    color: #444;
+}
+body { background-color: #fff;
+       height: 100%;
+       width:100%;
+       margin: 0;
+       padding: 0;
+       margin-left:0px;
+       margin-bottom:0px;
+       margin-right:0px;
+       margin-top:0px;
+}
+
+.tasklink {
+    color:black;
+    text-decoration: none;
+    font-size:12px;
+}
+
+.imp {
+    margin-bottom:0;
+    margin-top:0;
+    padding: 0;
+    color:#444;
+    text-decoration: blink;
+    font-weight: bold;
+    font-size:12px;
+}
+
+.imp-2 {
+    margin-bottom:0;
+    margin-top:0;
+    padding: 0;
+    color:#444;
+    font-weight: bold;
+    font-size:12px;
+}
+
+a.tasklink:hover{
+    background-color: #F4FAFF;
+    border: 1px solid #0078cc;
+    text-decoration:none;
+    padding:4px;
+    font-weight: bold;
+
+}
+
+#queryresult {
+    margin-bottom:0;
+    margin-top:0;
+
+    background-color: #fff;
+    padding: 0;
+    font-family: "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif; 
+    font-size: 8pt;
+    color: #444;
+}
+
+.table{
+    margin-bottom:0;
+    margin-top:0;
+    background-color: #fff;
+    padding: 0;
+    font-family: "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+    font-size: 8pt;
+    color: #444;
+}
+.button { background: #0078cc;
+          border: 0;
+          border-right: 1px solid #19589d;
+          border-bottom: 1px solid #19589d;
+          font-size: 11px;
+          padding: 0px 0px;
+          color: #fff;
+          padding: 0px;
+          width: 100%;
+}
+
+.button-search {
+    width: 100px;
+    float: left;
+    background: #0078cc;
+    border: 0;
+    border-right: 1px solid #19589d;
+    border-bottom: 1px solid #19589d;
+    font-size: 11px;
+    padding: 1px 4px;
+    color: #fff;
+
+}
+
+
+.buttonAction { background: #0078cc;
+                border: 0;
+                border-right: 1px solid #19589d;
+                border-bottom: 1px solid #19589d;
+                font-size: 11px;
+                padding: 1px 4px;
+                color: #fff;
+}
+
+
+#banner-message {
+    background-color: #F4FAFF;
+    border: 1px solid #0078cc;
+    padding: 5px;
+}
+
+#footer-table {
+    margin-bottom:0;
+    margin-top:0;
+
+    background-color: #fff;
+    padding: 0;
+    font-family: "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+    font-size: 8pt;
+    color: #444;
+}
+
+.todo {
+    background-color: #F4FAFF;
+    border: 1px solid #0078cc;
+    padding: 4px;
+    font-family: "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+    font-size:12px;
+}
+
+.todoTitle {
+    background-color: #fff;
+    border: 3px solid #0078cc;
+    padding: 4px;
+    font-family: "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+    font-size:12px;
+
+}
+
+.todo2 {
+    background-color: #F4FAFF;
+    border: 1px solid #0078cc;
+    padding: 4px;
+    font-family: "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+    font-size:12px;
+}
+
+.category {
+
+    cursor: pointer;
+}
+
+td.bpTD {
+    background-color: #F4FAFF;
+    border: 1px solid #0078cc;
+    padding: 4px;
+    font-family: "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+    font-size:12px;
+}
+
+
+td.bpTD:hover {
+    background-color: #FFF;
+    border: 1px solid #0078cc;
+    padding: 4px;
+    font-family: "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+    font-size:12px;
+    text-decoration:underline;
+
+    cursor: pointer;
+}
+
+.bpitem  {
+    background-color: #F4FAFF;
+    border: 1px solid #0078cc;
+    padding: 4px;
+    font-family: "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+    font-size:12px;
+
+
+}
+
+
+.bpitem:hover  {
+    background-color: #F4FAFF;
+    border: 1px solid #0078cc;
+    padding: 4px;
+    font-family: "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+    font-size:12px;
+
+
+}
+
+
+
+#menu-title {
+
+    font-size:12pt;
+    padding:0px;
+    margin:0px;
+    margin-bottom:6px;
+    margin-top:3px;
+    text-align:center;
+    border: 1px solid #0078cc;
+    width:100%;
+    font-weight:bold;
+}
+#footer{
+    text-align:center;
+    color: #888;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+.input-label, .input-content {
+    margin-bottom: 5px;
+}
+
+.input-label {
+    width: 60px;
+    height: 22px;
+    line-height: 22px;
+    float: left;
+    clear: left;
+    text-align:right;
+}
+
+.input-content {
+    width: 120px;
+    float: left;
+}
+
+
+.input-label-add, .input-content-add {
+    margin-bottom: 7px;
+
+}
+
+.input-label-add {
+    width: 200px;
+    height: 30px;
+    line-height: 22px;
+    float: left;
+    clear: left;
+    text-align:right;
+    font-weight:bold;
+    padding-right:5px;
+}
+
+.input-content-add {
+    width: 300px;
+    float: left;
+}
+.input-content-checkbox {
+    width: 0px;
+    float: left;
+}
